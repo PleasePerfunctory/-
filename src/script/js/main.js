@@ -1,3 +1,1 @@
-require(['module-index'],function(){
-	
-});
+require(['module-index','module-effect']);

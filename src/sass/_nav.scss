@@ -40,8 +40,45 @@
                     background-color: rgba(0,0,0,0.55);
                     width: 200px;
                     height: 500px;
+                    .active-nav2{
+                       background:#fff; 
+                       a{
+                           color: $zcolor;
+                       }
+                    }
                     li{
+                        &:hover a{
+                            color:$zcolor;
+                        }
                         height: 31.2px;
+                        a{
+                            display: block;
+                            height: 100%;
+                            color: #fff;
+                            font-size:14px;
+                            line-height: 31.2px;
+                            font-weight:bold;
+                        }
+                        i{
+                            margin-left: 14px;
+                            margin-right: 7px;
+                            height: 31px;
+                            line-height: 31px;
+                            font-size: 16px;
+                            opacity: 0.5;
+                            font-weight:normal ;
+                        }
+                        @for $nav2-num from 1 through 16{
+                            .nav2-content#{$nav2-num}{
+                                width: 852px;
+                                height: 500px;
+                                position: absolute;
+                                left:200px;
+                                top: 0;
+                                background:#00B262 *$nav2-num -#050505;
+                                display: none;
+                            }
+                        }
                     }
                     
                 }

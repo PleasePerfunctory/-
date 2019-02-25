@@ -293,8 +293,178 @@ input {
   width: 200px;
   height: 500px;
 }
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list .active-nav2 {
+  background: #fff;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list .active-nav2 a {
+  color: #ff0036;
+}
 .nav .container .classify-nav .classify-nav2 .classify-nav2-list li, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update {
   height: 31.2px;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li:hover a, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update:hover a, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update:hover a {
+  color: #ff0036;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li a, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update a, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update a {
+  display: block;
+  height: 100%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 31.2px;
+  font-weight: bold;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li i, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update i, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update i {
+  margin-left: 14px;
+  margin-right: 7px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: normal;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content1, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content1, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content1 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00ad5d;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content2, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content2, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content2 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fabf;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content3, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content3, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content3 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content4, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content4, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content4 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content5, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content5, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content5 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content6, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content6, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content6 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content7, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content7, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content7 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content8, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content8, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content8 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content9, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content9, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content9 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content10, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content10, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content10 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content11, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content11, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content11 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content12, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content12, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content12 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content13, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content13, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content13 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content14, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content14, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content14 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content15, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content15, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content15 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
+}
+.nav .container .classify-nav .classify-nav2 .classify-nav2-list li .nav2-content16, .nav .container .classify-nav .classify-nav2 .classify-nav2-list .content .content-rectangle-2 ul .update .nav2-content16, .content .content-rectangle-2 ul .nav .container .classify-nav .classify-nav2 .classify-nav2-list .update .nav2-content16 {
+  width: 852px;
+  height: 500px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: #00fafa;
+  display: none;
 }
 .nav .container .platform {
   height: 35px;
@@ -383,6 +553,7 @@ input {
   opacity: 0.3;
   margin-left: 5px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .content {
