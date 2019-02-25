@@ -1,0 +1,3 @@
+@function color-rand(){
+    @return rgb(round(random()*255),round(random()*255),round(random()*255));
+}

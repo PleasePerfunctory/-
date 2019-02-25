@@ -1,0 +1,67 @@
+@charset "utf-8";
+$top-height:32px;
+.top{
+    border-bottom: 1px solid #e5e5e5;
+    height: $top-height;
+    background:#f2f2f2;
+    .container{
+        height:$top-height;
+        @include clear-float();
+        //设置头部左浮动盒子
+        .top-left{
+            float: left;
+            height:$top-height;
+            line-height: $top-height;
+            em,a{
+                color:#999;
+            }
+            a{
+                &:hover{
+                    color:$zcolor;
+                }
+            }
+            .log-in{
+                padding:0 20px 0 20px;
+            }
+        }
+        //设置头部右浮动的盒子
+        .top-right{
+            @include clear-float();
+            height:$top-height;
+            line-height: $top-height;
+            float: right;
+            li{
+                height:$top-height;
+                line-height: $top-height;
+                float: left;
+                color: #999;
+                padding:0 10px;
+                position: relative;
+                @include size-hove(a,$zcolor,true);
+                a{
+                color:#999;
+                }
+                i{
+                    font-style: normal;
+                    color:$zcolor;
+                    padding-right: 4px;
+                }
+                b{
+                    position: absolute;
+                    right: 6px;
+                    top: 15px;
+                    width: 0;
+                    height: 0;
+                    border-width: 3px;
+                    border-style: solid dashed dashed;
+                    border-color: #bbb transparent transparent;
+                    font-size: 0;
+                    line-height: 0;
+                }
+            }
+            .padd-b{
+                    padding-right: 14px !important;
+            }
+        }
+    }
+}

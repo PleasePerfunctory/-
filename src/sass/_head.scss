@@ -1,0 +1,77 @@
+@charset "utf-8";
+.herd{
+    .container{
+        position: relative;
+        .logo-box{
+            position: absolute;
+            left: -21px;
+            top: 0;
+        }
+        img{
+            width: 240px;
+        }
+        //搜索栏上面搜索框和按钮
+        .search-box{
+            padding-top:38px;
+            margin:0 auto;
+            width: 625px;
+            margin-bottom:33px;
+        }
+        .search{
+            width: 623px;
+            height:36px;
+            border:2px solid $zcolor ;
+            vertical-align: middle;
+            @include clear-float();
+        }
+        .search-input{
+            border:none;
+            font-size: 16px;
+            height:100%;
+            width:491px;
+            box-sizing: border-box;
+            padding: 5px 3px 5px 5px;
+            outline: 0;
+            float: left;
+        }
+        .search-button{
+            height: 100%;
+            width: 132px;
+            outline: 0;
+            border: none;
+            background: $zcolor;
+            color: #fff;
+            padding:0;
+            float: left;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 5px;
+        }
+        //搜索栏下面热搜产品推荐部分
+        .hot-search{
+            @include clear-float();
+            padding-top:4px;
+            margin-left:-13px;
+            li{
+                float: left;
+                padding:0 12px;
+                height: 15px;
+                line-height: 1.1;
+                a{
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+            @for $li-num from 1 to 9{
+                li:nth-of-type(#{$li-num}){
+                border-right:1px solid #ccc;
+                }
+            }
+        }
+    }
+}
+//将热搜产品字体色改为红色
+.hot-sell{
+    color:$zcolor !important;
+}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+//每个大模块里面固定宽度居中的容器
+.container{
+    width: 1230px;
+    margin: 0 auto;
+}
+i{
+    font-style: normal;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+em{
+    font-style: normal;
+}
+img{
+    display: block;
+}
+input{
+    padding:0;
+}
+//定义主色变量
+$zcolor:#ff0036;
+//自定义字体库1
+@font-face{font-family:mui-global-iconfont;
+src:url('../fonts/font_1401963178_8135476.woff') format('woff');
+}
+.mui-global-iconfont{
+    font-family: mui-global-iconfont!important;
+}
+//自定义字体库2
+@font-face{font-family:fpIconFont;
+src:url('../fonts/font_eu7qkdb0zt3jif6r.woff') format('woff');
+}
+.fp-iconfont {
+    font-family: fpIconFont!important;
+}
+//自定义字体库3
+@font-face{font-family:iconfont;
+src:url('../fonts/font_1451959379_8626566.woff') format('woff');
+}
+.iconfont{
+    font-family: iconfont!important;
+}
+//自定义字体库4
+@font-face{font-family:tm-detail-font;
+src:url("../fonts/font_800_ezt8bysfawl.woff") format('woff');
+}
+.mui_addr_icon{
+    font-family:tm-detail-font!important;
+}
+    

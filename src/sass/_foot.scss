@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.foot{
+    .container{
+        width: 1190px;
+    }
+    border-top: 1px solid #D1D7DC;
+    background:#fff;
+    position: relative;
+    .foot-up{
+        position: relative;
+        background:#fff;
+        .top-foot-a{
+        margin:25px auto;
+        background:url('https://img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg') no-repeat;
+        width:1190px;
+        height:100px;
+            .foot-toplist-a{
+                @include clear-float();
+                li{
+                    float: left;
+                    a{
+                        display: block;
+                        width: 297px;
+                        height:100px;
+                    }
+                }
+            }
+        }
+        .bottom-foot-a{
+            width: 1190px;
+            padding-top: 22px;
+            height: 190px;
+            margin: auto;
+            border-top: 1px solid #ededed;
+        }
+        .list-ul-1{
+            @include clear-float();
+            .list-li-1{
+                float: left;
+                width: 186px;
+                padding-left:52px ;
+                .list-span-a{
+                    height: 30px;
+                    line-height: 30px;
+                    color: #646464;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-align: left;
+                }
+            }
+            .list-li-2{
+                height: 20px;
+                a{
+                    display: block;
+                    height: 100%;
+                    line-height: 20px;
+                    overflow: hidden;
+                    text-align: left;
+                    height: 20px;
+                    color: #8b8b8b;
+                }
+            }
+        }
+        .img-bottom-miao{
+            position: absolute;
+            bottom: 0;
+            left:400px;
+            width: 68px;
+            height: 25px;
+            background-size: 68px 25px;
+            background-image:url('http://img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png');
+            background-repeat:no-repeat ;
+        }
+    }
+    .foot-down{
+        border-top: 2px solid #FF0036;
+        background: #000;
+        text-align: left;
+        .foot-tmallinfo{
+            @include clear-float();
+            padding:10px 0;
+            li{
+                float: left;
+                margin-right:8px;
+                height: 25px;
+                line-height: 25px;
+                a{
+                    color: #fff;
+                }
+            }
+        }
+        .foot-otherlink{
+            height: 12px;
+            padding: 11.5px 0;
+            @include clear-float();
+            li{
+               height: 12px;
+               float: left;
+               padding:0 4px;
+               border-right: 1px #fff solid;
+               &:first-of-type{
+                   padding-left:0px;
+               }
+               &:last-of-type{
+                   border: none;
+               }
+               a{
+                   color: #fff;
+               }
+            }
+        }
+        .foot-copyright{
+            padding-bottom: 18px;
+            div{
+                margin-bottom:5px ;
+            }
+            span{
+                margin-right: 65px;
+                line-height: 20px;
+                color: #a4a4a4;
+                a{
+                    color: #a4a4a4;
+                }
+                img{
+                    display: inline-block;
+                    padding-right:2px ;
+                    vertical-align: middle;
+                }
+            }
+            p{
+                display: block;
+                color: #686868;
+                font-weight: 400;
+            }
+            b{
+                padding:10px 0 5px 0 ;
+                display: block;
+                a{
+                    margin-right:10px ;
+                    display:inline-block;
+                }
+                img{
+                   width: 73px;
+                   height:30px; 
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+.banner{
+    position: relative;
+    height: 500px;
+    //轮播图1 
+    .banner-content{
+        position:absolute;
+        top: 0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        .banner-img1{
+          margin: 0 auto;
+        }
+        .container{
+            position:relative;
+            //轮播图中两个广告格式
+            .bannerad{
+                position: absolute;
+                right: 0;
+                width: 220px;
+                height: 235px;
+                background:rgba(255,255,255,0.7);
+                a{
+                    display: block;
+                }
+                img{
+                    width: 220px;
+                }
+            }
+            .banner-ad1{
+                top:10px;
+            }
+            .banner-ad2{
+                bottom:10px;
+            }
+        }
+    }
+    .banner-button-list{
+        position:absolute;
+        text-align: center;
+        vertical-align: middle;
+        width: 100%;
+        bottom: 25px;
+        .focus{
+            background:#fff;
+            opacity: 0.6;
+        }
+        li{
+            display: inline-block;
+            width:25px;
+            height:5px;
+            background:#000;
+            opacity:0.3;
+            margin-left:5px;
+            vertical-align: middle;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+//清浮动混合
+@mixin clear-float(){
+    &::after{content:'';clear: both;display: block;height: 0px;overflow: hidden;visibility: hidden;};
+}
+
+//定义鼠标划过字体的混合
+@mixin size-hove($obj,$color,$decoration){
+    @if $obj{
+        & #{$obj}:hover{
+            color:$color;
+            @if $decoration{
+                text-decoration:underline;
+            }
+        }
+    }@else{
+        &:hover{
+            color:$color;
+            @if $decoration{
+                text-decoration:underline;
+            }
+        }
+    }
+}
