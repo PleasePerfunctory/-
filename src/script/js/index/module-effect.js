@@ -67,7 +67,7 @@ define(['config'],function(){
 		
 		//顶部悬浮
 		(function(){
-			$top_t=true;
+			var $top_t=true;
 			$(window).scroll(function(){
 				if($('html,body').scrollTop()>=800){
 					if($top_t){

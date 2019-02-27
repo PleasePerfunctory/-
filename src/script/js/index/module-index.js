@@ -30,7 +30,7 @@ define(['config'],function(){
 					$ullist+=`
 						<li class="hot-li">
 							<a href="http://10.31.162.18/2JD/projectname/src/details.html?sid=${value.sid}">
-							<img src="${value.url}"/>
+							<img data-original="${value.url}"/>
 							<p>${value.title}</p>
 							<span class="price">￥${value.price}</span>
 							</a>
@@ -43,7 +43,7 @@ define(['config'],function(){
 					}
 				});
 				$ullist+='</ul>';
-				$('.hot-sale-content').html($ullist);
+				$('.hot-sale-content').html($ullist+$ullist+$ullist+$ullist);
 			});
 		})();
 	});

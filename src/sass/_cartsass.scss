@@ -1,0 +1,395 @@
+@charset "utf-8";
+.container{
+    width: 1190px;
+}
+.body{
+    .title{
+        @include clear-float();
+        position:relative;
+        padding:20px 0px 40px;
+        height: 35px;
+        .body-hlogo{
+            display: block;
+            width: 181px;
+            height: 45px;
+            position: absolute;
+            background-image: url('https://gw.alicdn.com/tfs/TB1LJYSfmBYBeNjy0FeXXbnmFXa-800-600.png');
+            background-repeat:no-repeat ;
+            background-position: -110px 0;
+            top:18px;
+            left:0px;
+            overflow: hidden;
+            background-size:400px auto;
+        }
+        .right-search{
+            float:right;
+            height:35px;
+            background:#f50;
+            .classfiy-s-a{
+                width: 74px;
+                background-color:#f5f5f5;
+                display: inline-block;
+                color: #6b6b6b;
+                height: 29px;
+                line-height: 29px;
+                font-size: 12px;
+                font-weight: 400;
+                margin: 3px 0 3px 3px;
+                text-indent: 15px;
+                border-right: 1px solid #e5e5e5;
+                border-left: 1px solid #f5f5f5;
+                vertical-align: middle;
+                position: relative;
+                s{
+                    line-height: 0;
+                    border-width: 4px;
+                    border-color: #666 transparent transparent;
+                    border-style: solid dashed dashed;
+                    height: 0;
+                    position: absolute;
+                    top: 12px;
+                    font-size: 0;
+                    left: 60px;
+                    z-index: 1;
+                }
+                em{
+                     line-height: 0;
+                    border-width: 3px;
+                    border-color: #f6f6f6 transparent transparent;
+                    height: 0;
+                    position: absolute;
+                    left: 61px;
+                    border-style: solid;
+                    z-index: 2;
+                    top:11px;
+                }
+            }
+            #search-text-in{
+                outline: none;
+                border: none;
+                height: 29px;
+                margin: 3px 0 3px -4px;
+                width: 343px;
+                vertical-align: middle;
+                overflow: hidden;
+            }
+            .right-s-btn{
+                height: 35px;
+                background: #f50;
+                color: #fff;
+                font-size:20px;
+                vertical-align: middle;
+                width: 92px;
+                border: none;
+                font-weight:500;
+                outline: none;
+                padding: 0;
+                overflow: hidden;
+                margin-left:-4px;
+                letter-spacing: 5px;
+                background-image:url('https://gtd.alicdn.com/tps/i1/T1qyj8Fc8aXXc4E9bI-400-300.png') ;
+                background-repeat: no-repeat;
+                background-position:0 -204px;
+                cursor: pointer;
+            }
+        }
+    }
+    .cart-null{
+        display: none;
+    }
+    .crumbs-box{
+        @include clear-float();
+        margin: 20px 0px 10px 0px;
+        .left-box{
+            float: left;
+            span{
+                font-weight: 400;
+            }
+            a{
+                color:#36C;
+                padding:0px 8px 0px 5px;
+                background: url('https://assets.alicdn.com/sys/common/img/crumb_bg.gif') no-repeat 100% 50%;
+            }
+            em{
+                padding-left:6px;
+            }
+        }
+        .right-box{
+            float: right;
+            color:gray;
+            a{
+                color:#36C;
+            }
+        }
+    }
+    .shopping-null{
+        padding:88px 0 100px 156px;
+        background: url('https://gtd.alicdn.com/tps/i3/T1TvXUXnNjXXXXXXXX-100-100.png') no-repeat 40px 86px;
+        .sho-null-title{
+            font-weight: 700;
+            font-size:14px ;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        .action{
+            line-height: 20px;
+            a{
+                color: #36C;
+                margin-left: 5px;
+            }
+        }
+    }
+    .cart{
+        .cart-title{
+            @include clear-float();
+            height: 35px;
+            .cart-title-header{
+                height: 100%;
+                float: left;
+                li{
+                    border-left:#e6e6e6 solid 1px ;
+                    float:left;
+                    height:12px;
+                    margin-top:5px ;
+                    a{
+                        font-weight: 700;
+                        font-size: 16px;
+                        height: 16px;
+                        line-height: 1.1;
+                        text-align: center;
+                        padding:0 30px 0 25px ;
+                        line-height: 12px;
+                    }
+                    span{
+                            color: #f40;
+                            font-size: 14px;
+                            margin: 0 0 0 5px;
+                            font-weight: 400;
+                    }
+                    &:first-of-type{
+                        border: none;
+                        a{
+                            color:#f40;
+                        }
+                    }
+                }
+            }
+            .accounts-title{
+                float: right;
+                height:25px;
+                font-family: "微软雅黑";
+                span{
+                    line-height:25px;
+                }
+                em{
+                    font-family: Verdana,Arial;
+                    color:#f40;
+                    padding-left: 2px;
+                    font-weight: 700;
+                }
+                a{
+                    background: #aaa;
+                    color: #fff;
+                    cursor: not-allowed;
+                    display: inline-block;
+                    width: 55px;
+                    border-radius: 2px;
+                    text-align: center;
+                    line-height: 25px;
+                }
+            }
+        }
+        .line{
+            clear: both;
+            background: #e6e6e6;
+            height: 2px;
+            position: relative;
+            .s-line{
+                height: 2px;
+                background:#f40;
+                position:absolute;
+                top:0;
+                left: 0;
+                width: 132px;
+            }
+        }
+        .cart-table-all{
+            @include clear-float();
+            height: 50px;
+            line-height: 50px;
+            .all-check{
+                float: left;
+                vertical-align: middle;
+                width: 80px;
+                font-size:12px ;
+                padding-left: 10px;
+                #elect-all{
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+            }
+            .check-mass{
+                float: left;
+                padding-left:50px ;
+            }
+            .check-right{
+                float: right;
+                .inner{
+                    float: left;
+                    padding-left:10px;
+                    width: 120px;
+                }
+                .number{
+                    float: left;
+                    padding-left:10px;
+                    width: 110px;
+                }
+                .price-all{
+                    float: left;
+                    width: 140px;
+                }
+                .all-operation{
+                    float: left;
+                    width:119px;
+                }
+            }
+        }
+        .commodity-list-container{
+            .li-container{
+                @include clear-float();
+                background:#fcfcfc;
+                border: 1px solid #ccc;
+                height: 130px;
+                margin-top:38px ;
+                .con-chk{
+                    float: left;
+                    width: 50px;
+                    height: 100%;
+                    padding-top:20px ;
+                    .times-chk{
+                        float: right;
+                        margin-right:10px ;
+                    }
+                }
+                .inner-mass{
+                    float: left;
+                    width: 342px;
+                    padding-top:20px;
+                    .inner-mass-img{
+                        border: 1px solid #eee;
+                        float: left;
+                    }
+                    .inner-mass-right{
+                        float:left;
+                        width: 226px;
+                        padding-left:10px;
+                        line-height: 18px;
+                        .serve-img{
+                            margin-top: 26px;
+                            a{
+                                float: left;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+                .conta-props{
+                    float: left;
+                    width: 212px;
+                    height: 119px;
+                    border: 1px dashed transparent;
+                    position: relative;
+                    padding: 16px 0;
+                    margin-right:40px ;
+                    p{
+                        margin: 0 5px 0 15px;
+                        color: #9c9c9c;
+                        overflow: hidden;
+                    }
+                }
+                .price-i{
+                    float: left;
+                    width: 130px;
+                    padding:20px 0 0 10px;
+                    .s-price{
+                        display: block;
+                        color: #9c9c9c;
+                        text-decoration: line-through;
+                        font-family: Verdana,Tahoma,arial;
+                        line-height: 15px;
+                    }
+                    .price-x{
+                        display: block;
+                        color: #3c3c3c;
+                        font-weight: 700;
+                        font-family: Verdana,Tahoma,arial;
+                        line-height: 15px;
+                    }
+                }
+                .num-add-re{
+                    float: left;
+                    width: 120px;
+                    padding-top:20px;
+                    .no-minus,.add-puls{
+                        float: left;
+                        height: 23px;
+                        width: 17px;
+                        border: 1px solid #e5e5e5;
+                        background: #f0f0f0;
+                        text-align: center;
+                        line-height: 23px;
+                        color: #444;
+                    }
+                    .number-count{
+                        float: left;
+                            width: 39px;
+                            height: 15px;
+                            line-height: 15px;
+                            border: 1px solid #aaa;
+                            color: #343434;
+                            text-align: center;
+                            padding: 4px 0;
+                            background-color: #fff;
+                    }
+                }
+                .count-price{
+                    float: left;
+                    width:133px;
+                    height: 100%;
+                    color: #f40;
+                    font-weight: 700;
+                    padding-top:16px;
+                    font-family: Verdana,Tahoma,arial;
+
+                }
+                .operations-container{
+                    float: left;
+                    width: 119px;
+                    padding:17px 0 0 30px;
+                    line-height: 21px;
+                    .collect,.delete{
+                        padding-bottom: 3px;
+                        display: block;
+                    }
+                }
+            }
+            .cart-footer{
+                .account-right{
+                    .account-a{
+                        background: #B0B0B0;
+                        color: #fff;
+                        border-left: 1px solid #e7e7e7;
+                        width: 119px;
+                        cursor: not-allowed;
+                        text-decoration: none;
+                        display: inline-block;
+                        height: 50px;
+                        line-height:50px; 
+                        text-align: center; 
+                        font-size: 20px
+                    }
+                }
+            }
+        }
+    }
+}

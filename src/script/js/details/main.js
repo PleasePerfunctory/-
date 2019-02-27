@@ -1,1 +1,1 @@
-require(['module-detailsindex']);
+require(['module-detailsindex','module-detailseffect']);

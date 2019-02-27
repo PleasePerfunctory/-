@@ -302,6 +302,12 @@ input {
   height: 418px;
   margin: 20px 20px 0;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.body .body-zoom .small-imgbox .loupe {
+  position: absolute;
+  display: none;
+  background-image: url("https://img-tmdetail.alicdn.com/tps/i4/T12pdtXaldXXXXXXXX-2-2.png");
 }
 .body .body-zoom .small-imgbox .smallimg {
   width: 100%;
@@ -315,15 +321,26 @@ input {
   text-align: center;
   margin-left: -16px;
 }
+.body .body-zoom .litimg .litimg-list .active {
+  border: 2px solid #000;
+  width: 56px;
+  height: 56px;
+}
+.body .body-zoom .litimg .litimg-list .active img {
+  top: -2px;
+  left: -2px;
+}
 .body .body-zoom .litimg .litimg-list li {
   display: inline-block;
   width: 60px;
   height: 60px;
   margin-right: 16px;
+  overflow: hidden;
 }
 .body .body-zoom .litimg .litimg-list li img {
-  height: 100%;
-  width: 100%;
+  position: relative;
+  height: 60px;
+  width: 60px;
 }
 .body .body-zoom .big-imgbox {
   display: none;
@@ -333,9 +350,11 @@ input {
   position: absolute;
   overflow: hidden;
   left: 450px;
-  top: 0px;
+  top: 21px;
 }
 .body .body-zoom .big-imgbox .bigimg {
+  width: 800px;
+  height: 800px;
   position: absolute;
 }
 .body .Specification {
@@ -355,7 +374,7 @@ input {
   color: #000;
 }
 .body .Specification .sp-title .title-p {
-  height: 21px;
+  height: auto;
   line-height: 21px;
   font-size: 14px;
   color: #ff0036;
