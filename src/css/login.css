@@ -56,6 +56,14 @@ input {
   font-family: tm-detail-font !important;
 }
 
+@font-face {
+  font-family: fpNewIconFont;
+  src: url("../fonts/font_lo8q60v4spi1wcdi.woff") format("woff");
+}
+.fp-iconfont-new {
+  font-family: fpNewIconFont !important;
+}
+
 .container {
   width: 1190px;
 }

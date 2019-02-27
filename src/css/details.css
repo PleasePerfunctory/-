@@ -56,6 +56,130 @@ input {
   font-family: tm-detail-font !important;
 }
 
+@font-face {
+  font-family: fpNewIconFont;
+  src: url("../fonts/font_lo8q60v4spi1wcdi.woff") format("woff");
+}
+.fp-iconfont-new {
+  font-family: fpNewIconFont !important;
+}
+
+.stairs-nav {
+  display: none;
+  position: fixed;
+  width: 35px;
+  left: 50%;
+  margin-left: -660px;
+  bottom: 50px;
+  font-size: 12px;
+  color: #fff;
+  overflow: hidden;
+  z-index: 100;
+}
+.stairs-nav .f-nav {
+  width: 36px;
+  height: 36px;
+  background: #ff0036;
+  font-size: 12px;
+  text-align: center;
+  line-height: 36px;
+}
+.stairs-nav .stairs-list li {
+  line-height: 12px;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  cursor: pointer;
+}
+.stairs-nav .stairs-list .active {
+  background: #64C333;
+}
+.stairs-nav .gotop-nav {
+  margin-top: 1px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  overflow: hidden;
+}
+.stairs-nav .gotop-nav i {
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 13px;
+  display: block;
+  margin-top: 5px;
+}
+
+.suspensionbox {
+  display: none;
+  top: -50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ff0036;
+  width: 100%;
+  height: 50px;
+  z-index: 10000;
+}
+.suspensionbox .container {
+  overflow: hidden;
+  width: 1230px;
+  height: 100%;
+  position: relative;
+}
+.suspensionbox .container .logo-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 8px;
+}
+.suspensionbox .container .logo-content .logo-en {
+  font-size: 79px;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.suspensionbox .container .logo-content .logo-zh {
+  font-size: 40px;
+  padding-left: 5px;
+  color: #fff;
+  vertical-align: middle;
+  line-break: 30px;
+}
+.suspensionbox .container .su-seek {
+  width: 740px !important;
+  margin: 12px auto 0;
+}
+.suspensionbox .container .su-seek #su-seek-in {
+  padding: 5px 3px 5px 5px;
+  width: 640px;
+  height: 20px;
+  font-weight: 700;
+  color: #000000;
+  outline: none;
+  box-sizing: content-box;
+  vertical-align: middle;
+  border: none;
+}
+.suspensionbox .container .su-seek .seek-btn {
+  width: 90px;
+  height: 30px;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 4px;
+  margin-left: -3px;
+  background: #ff0036;
+}
+
 .top {
   border-bottom: 1px solid #e5e5e5;
   height: 32px;
@@ -196,6 +320,10 @@ input {
   width: 60px;
   height: 60px;
   margin-right: 16px;
+}
+.body .body-zoom .litimg .litimg-list li img {
+  height: 100%;
+  width: 100%;
 }
 .body .body-zoom .big-imgbox {
   display: none;

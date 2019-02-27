@@ -16,6 +16,9 @@
             position:relative;
             //轮播图中两个广告格式
             .bannerad{
+                &:hover{
+                    background:rgba(255,255,255,1);
+                }
                 position: absolute;
                 right: 0;
                 width: 220px;

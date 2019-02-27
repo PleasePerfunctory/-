@@ -50,4 +50,10 @@ src:url("../fonts/font_800_ezt8bysfawl.woff") format('woff');
 .mui_addr_icon{
     font-family:tm-detail-font!important;
 }
-    
+//自定义字体库5
+@font-face{font-family:fpNewIconFont;
+src:url('../fonts/font_lo8q60v4spi1wcdi.woff') format('woff');
+}
+.fp-iconfont-new{
+    font-family:fpNewIconFont!important;
+}
