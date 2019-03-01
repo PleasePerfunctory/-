@@ -266,6 +266,7 @@
                     width: 50px;
                     height: 100%;
                     padding-top:20px ;
+                    box-sizing: border-box;
                     .times-chk{
                         float: right;
                         margin-right:10px ;
@@ -278,6 +279,10 @@
                     .inner-mass-img{
                         border: 1px solid #eee;
                         float: left;
+                        img{
+                            width: 80px;
+                            height: 80px;
+                        }
                     }
                     .inner-mass-right{
                         float:left;
@@ -296,7 +301,7 @@
                 .conta-props{
                     float: left;
                     width: 212px;
-                    height: 119px;
+                    height: 84px;
                     border: 1px dashed transparent;
                     position: relative;
                     padding: 16px 0;
@@ -359,6 +364,7 @@
                     color: #f40;
                     font-weight: 700;
                     padding-top:16px;
+                    box-sizing: border-box;
                     font-family: Verdana,Tahoma,arial;
 
                 }
@@ -374,7 +380,73 @@
                 }
             }
             .cart-footer{
+                height: 50px;
+                background:#e5e5e5;
+                margin-top:15px;
+                @include clear-float();
+                .all-check{
+                    float: left;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 5px;
+                    vertical-align: middle;
+                    .all-check-input{
+                        vertical-align: middle;
+                        margin: 0;
+                    }
+                }
+                .del-col-f{
+                    float: left;
+                    .all-delete,.all-coll,.share{
+                        float: left;
+                        margin-left:25px;
+                        line-height: 50px;
+                        &:hover{
+                            color:#f40;
+                            text-decoration:underline;
+                        }
+                    }
+                }
                 .account-right{
+                    float: right;
+                    .account-span-1{
+                        line-height: 48px;
+                        float: left;
+                        display: block;
+                        em{
+                            line-height: 50px;
+                            padding:0 5px;
+                            color: #f40;
+                            font-weight: 700;
+                            font-size: 18px;
+                            font-family: tohoma,arial;
+                        }
+                        i{
+                            display: inline-block;
+                            width: 5px;
+                            height: 6px;
+                            margin:21px 10px 0 6px;
+                            background:url('https://gw.alicdn.com/tfs/TB1boCXfmCWBuNjy0FhXXb6EVXa-800-600.png') no-repeat 0 -115px;
+                        }
+                    }
+                    .account-span-2{
+                        line-height: 48px;
+                        float: left;
+                        display: block;
+                        margin-left:29px;
+                        color: #3c3c3c;
+                    }
+                    .account-price-em{
+                        display: block;
+                        float: left;
+                        font-weight: 700;
+                        font-size: 22px;
+                        padding: 0 3px;
+                        color: #f40;
+                        font-family: tohoma,arial;
+                        line-height: 50px;
+                    }
                     .account-a{
                         background: #B0B0B0;
                         color: #fff;

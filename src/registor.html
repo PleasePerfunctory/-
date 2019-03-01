@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="shortcut icon" href="//g.alicdn.com/mui/global/1.2.35/file/favicon.ico" type="image/x-icon">
+	<script src="script/thirdplugins/require.js" defer async="true" data-main="./script/js/registor/main"></script>
+	<link rel="stylesheet" type="text/css" href="css/registor.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<title>天猫注册</title>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<ul class="title-list">
+				<li><i>1</i>填写账号信息</li>
+				<li><i class="msg-font">㑇</i>注册成功</li>
+			</ul>
+		</div>
+		<div class="body-box">
+			<form action="http://10.31.162.18/2JD/projectname/php/registor.php" method="post">
+				<div class="body">
+					<span class="span-title">请输入注册的手机号</span>
+					<span class="span-mass">手机号一旦设置不可更改，请使用常用手机号注册</span>
+					<div class="input-box">
+						<span class="span-stitle">手机号码</span>
+						<input type="text" name="username" id="username" placeholder="输入常用的手机号"/>
+						<div class="msg"><em class="msg-font"></em><span class="mas-s"></span></div>
+					</div>
+				</div>
+				<div class="body">
+					<span class="span-title">请设置登录密码</span>
+					<span class="span-mass">登录时验证，保护账号信息</span>
+					<div class="input-box">
+						<span class="span-stitle">登录密码</span>
+						<input type="password" name="password-a" id="password-a" placeholder="设置你的登录密码"/>
+						<div class="msg"><em class="msg-font"></em><span class="mas-s"></span><b style="font-style: normal;margin-left: 20px;" class="strength"></b></div>
+					</div>
+					<div class="input-box">
+						<span class="span-stitle">密码确认</span>
+						<input type="password" name="password" id="password" placeholder="请再次输入你的密码"/>
+						<div class="msg"><em class="msg-font"></em><span class="mas-s"></span></div>
+					</div>
+				</div>
+				<div class="body">
+					<span class="span-title">设置会员名</span>
+					<div class="input-box">
+						<span class="span-stitle">登录名</span>
+						<input type="text" name="nickname" id="nickname" placeholder="会员名一旦设置成功，无法修改"/>
+						<div class="msg"><em class="msg-font"></em><span class="mas-s"></span></div>
+					</div>
+				</div>
+				<input type="submit" name="submit" id="submit" value="提交" />
+			</form>
+		</div>
+	</div>
+</body>
+</html>

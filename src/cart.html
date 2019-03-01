@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/cart.css"/>
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link href="//www.taobao.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<script src="script/thirdplugins/require.js" defer async="true" data-main="./script/js/cart/main"></script>
 	<title>淘宝网 - 我的购物车</title>
 </head>
 <body>
@@ -14,8 +15,9 @@
 		<div class="container">
 			<div class="top-left">
 				<em>喵，欢迎来天猫</em>
-				<a class="log-in" href="javascript:;">请登录</a>
-				<a class="sign-in" href="javascript:;">免费注册</a>
+				<a class="log-in" href="http://10.31.162.18/2JD/projectname/src/login.html">请登录</a>
+				<a class="sign-in" href="http://10.31.162.18/2JD/projectname/src/registor.html">免费注册</a>
+				<a class="quit" href="javascript:;" style="display: none;">退出</a>
 			</div>
 			<div class="top-right">
 				<ul class="menu-list">
@@ -26,7 +28,7 @@
 					</li>
 					<li>
 						<i class="mui-global-iconfont">󰅈</i>
-						<a href="javascript:;">购物车<span>0</span>件</a>
+						<a href="javascript:;">购物车<span class="count-spi">0</span>件</a>
 					</li>
 					<li class="padd-b">
 						<a href="javascript:;">收藏夹<b></b></a>
@@ -83,7 +85,7 @@
 					</ul>
 					<div class="accounts-title">
 						<span>已选商品（不含运费）</span>
-						<em cite="accounts-price">0.00</em>
+						<em class="accounts-price">0.00</em>
 						<a href="javascript:;">结 算</a>
 					</div>
 				</div>
@@ -113,16 +115,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="commodity-list-container">
+				<div class="commodity-list-container" >
 					<ul class="container-list">
-						<li class="li-container">
+						<li class="li-container" style="display: none;">
 							<div class="con-chk">
 								<input type="checkbox" name="itmes" class="times-chk" />
 							</div>
 							<div class="inner-mass">
 								<a class="inner-mass-img"  href="javascript:;"><img src="https://img.alicdn.com/bao/uploaded/i3/3504156152/O1CN01Agf7LP1vJf4fYvaoU_!!3504156152.jpg_80x80.jpg"/></a>
 								<div class="inner-mass-right">
-									<a href="javascript:;">美国惠而浦无线吸尘器家用小型强力大功率手持推杆超静音充电车用</a>
+									<a class="a-title" href="javascript:;">美国惠而浦无线吸尘器家用小型强力大功率手持推杆超静音充电车用</a>
 									<div class="serve-img">
 										<a href="javascript:;"><img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt="" /></a>
 										<a href="javascript:;"><img src="https://img.alicdn.com/tps/i3/T1bnR4XEBhXXcQVo..-14-16.png"/></a>
@@ -152,19 +154,20 @@
 								<a class="delete" href="javascript:;">删除</a>
 							</div>
 						</li>
+						
 					</ul>
 					<div class="cart-footer">
 						<div class="all-check">
-							<input type="checkbox" capture="all-check-input"/>
+							<input type="checkbox"class="all-check-input"/>
 							全选
 						</div>
 						<div class="del-col-f">
-							<a href="javascript:;">删除</a>
-							<a href="javascript:;">移入收藏夹</a>
-							<a href="javascript:;">分享</a>
+							<a class="all-delete" href="javascript:;">删除</a>
+							<a class="all-coll" href="javascript:;">移入收藏夹</a>
+							<a class="share" href="javascript:;">分享</a>
 						</div>
 						<div class="account-right">
-							<span class="account-span-1">已选商品<em>0</em>件</span>
+							<span class="account-span-1">已选商品<em>0</em>件<i></i></span>
 							<span class="account-span-2">合计（不含运费）：</span>
 							<em class="account-price-em">0.00</em>
 							<a class="account-a" href="javascript:;">结算</a>

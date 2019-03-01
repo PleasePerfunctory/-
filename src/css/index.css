@@ -65,6 +65,14 @@ input {
   font-family: fpNewIconFont !important;
 }
 
+@font-face {
+  font-family: regiconfont;
+  src: url("../fonts/font_1408947319_9759417.woff") format("woff");
+}
+.msg-font {
+  font-family: regiconfont !important;
+}
+
 .stairs-nav {
   display: none;
   position: fixed;

@@ -57,3 +57,10 @@ src:url('../fonts/font_lo8q60v4spi1wcdi.woff') format('woff');
 .fp-iconfont-new{
     font-family:fpNewIconFont!important;
 }
+//自定义字体库6
+@font-face{font-family:regiconfont;
+src:url("../fonts/font_1408947319_9759417.woff") format('woff');
+}
+.msg-font{
+    font-family: regiconfont!important;
+}

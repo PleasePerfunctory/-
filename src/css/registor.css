@@ -1,0 +1,233 @@
+.container {
+  width: 1230px;
+  margin: 0 auto;
+}
+
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+em {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+input {
+  padding: 0;
+}
+
+@font-face {
+  font-family: mui-global-iconfont;
+  src: url("../fonts/font_1401963178_8135476.woff") format("woff");
+}
+.mui-global-iconfont {
+  font-family: mui-global-iconfont !important;
+}
+
+@font-face {
+  font-family: fpIconFont;
+  src: url("../fonts/font_eu7qkdb0zt3jif6r.woff") format("woff");
+}
+.fp-iconfont {
+  font-family: fpIconFont !important;
+}
+
+@font-face {
+  font-family: iconfont;
+  src: url("../fonts/font_1451959379_8626566.woff") format("woff");
+}
+.iconfont {
+  font-family: iconfont !important;
+}
+
+@font-face {
+  font-family: tm-detail-font;
+  src: url("../fonts/font_800_ezt8bysfawl.woff") format("woff");
+}
+.mui_addr_icon {
+  font-family: tm-detail-font !important;
+}
+
+@font-face {
+  font-family: fpNewIconFont;
+  src: url("../fonts/font_lo8q60v4spi1wcdi.woff") format("woff");
+}
+.fp-iconfont-new {
+  font-family: fpNewIconFont !important;
+}
+
+@font-face {
+  font-family: regiconfont;
+  src: url("../fonts/font_1408947319_9759417.woff") format("woff");
+}
+.msg-font {
+  font-family: regiconfont !important;
+}
+
+.container {
+  width: 990px;
+}
+.container .title {
+  height: 46px;
+  border-bottom: 2px solid #e6e6e6;
+  position: relative;
+}
+.container .title .title-list {
+  width: 480px;
+  margin: 0 auto;
+}
+.container .title .title-list::after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.container .title .title-list li {
+  color: #3e3e3e;
+  border-bottom: 2px solid #ff4700;
+  float: left;
+  width: 170px;
+  padding-left: 70px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.container .title .title-list li:last-of-type {
+  color: #999;
+  border-color: transparent;
+}
+.container .title .title-list li:last-of-type i {
+  background-image: url("https://assets.alicdn.com/g/vip/register/2.9.7/xcommon/images/ico-circle2.png");
+}
+.container .title .title-list li i {
+  display: inline-block;
+  background-image: url("https://img.alicdn.com/tfs/TB15xpqRpXXXXcyXFXXXXXXXXXX-24-24.png");
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFF;
+}
+.container .body-box {
+  padding: 50px 0;
+  width: 720px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.container .body-box .body {
+  padding: 10px 0;
+  font-size: 14px;
+}
+.container .body-box .body::after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.container .body-box .body .span-title {
+  font: 400 12px/1.6 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+  font-weight: 700;
+  width: 240px;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  padding: 10px 0 10px 0;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.container .body-box .body .span-mass {
+  font: 400 12px/1.6 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+  height: 37px;
+  color: #3c3c3c;
+  display: inline-block;
+  line-height: 37px;
+  padding: 10px 0 10px 0px;
+  text-align: right;
+  font-size: 14px;
+}
+.container .body-box .body .span-stitle {
+  font: 400 12px/1.6 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+  display: inline-block;
+  margin-right: 20px;
+  width: 240px;
+  height: 37px;
+  line-height: 37px;
+  padding: 10px 0 10px 0;
+  text-align: right;
+  font-size: 14px;
+}
+.container .body-box .body .input-box {
+  position: relative;
+}
+.container .body-box .body input {
+  border: 1px solid #dedede;
+  width: 202px;
+  height: 17px;
+  line-height: 17px;
+  padding: 9px;
+  font-size: 14px;
+  margin: 10px 0 10px 0;
+}
+.container .body-box .msg {
+  height: 57px;
+  position: absolute;
+  top: 0;
+  left: 510px;
+  display: none;
+}
+.container .body-box .msg i {
+  display: inline;
+  margin-left: -18px;
+  margin-top: -1px;
+  font-size: 16px;
+  line-height: 57px;
+}
+.container .body-box .msg span {
+  font-size: 12px;
+  color: #3e3e3e;
+  line-height: 57px;
+}
+.container .body-box #submit {
+  background: #ff0036;
+  color: #FFF;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 180px;
+  margin: 30px 260px;
+}
+.container .body-box .pass {
+  color: #6bc827 !important;
+}
+.container .body-box .error {
+  color: #ff0036 !important;
+}
+.container .body-box .hint {
+  color: #00bfff !important;
+}
+
+/*# sourceMappingURL=registor.css.map */
